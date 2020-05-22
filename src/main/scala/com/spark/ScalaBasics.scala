@@ -18,6 +18,7 @@ object ScalaBasics {
     
     rdd.foreach(println)
     
+    println(rdd.partitions.size)
     
     
   }
